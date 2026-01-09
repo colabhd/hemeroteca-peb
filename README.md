@@ -21,6 +21,26 @@ A **Hemeroteca de Política Externa Brasileira** contém uma seleção de matér
 
 -----
 
+## Editar site do projeto
+
+- Os passos indicados abaixo devem ser feitos no terminal do editor de codigo a partir da pasta raiz do projeto. Em geral, é algo como `codigo/github/hemeroteca-peb`
+
+**1. entrar na pasta do site**
+
+```
+cd website
+
+```
+
+**2. Subir o site localmente**
+
+```
+npm install && npm run dev
+
+```
+
+
+---
 Para acessar o **acervo** da Hemeroteca PEB, [clique aqui](https://hemerotecapeb.lantri.org/recoll/).
 
 Para **mais informações** sobre o projeto, [clique aqui](https://labriunesp.org/docs/projetos/dados/hemeroteca-peb/info).
