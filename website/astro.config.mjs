@@ -10,6 +10,47 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
+					label: 'Hemeroteca',
+					items: [
+						{
+							label: "Apresentação",
+							slug: "hpeb/intro",
+						},
+						{
+							label:"Equipe",
+							slug: "hpeb/equipe",
+						},
+						{
+							label: "Atividades",
+							slug: "hpeb/atividade",
+						},
+
+					],
+				},
+				{
+					label: "Documentação",
+					items: [
+						{
+							label: "Introdução",
+							slug: "docs/intro",
+						},
+						{
+							label: "Arquivo JSON",
+							slug: "docs/json",
+						},
+						{
+							label: "Temas Pesquisados",
+							slug: "docs/tema",
+						},
+					],
+				},
+				{
+					label: "Citação",
+					slug: "hpeb/citando",
+				},
+
+				{
+					
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
