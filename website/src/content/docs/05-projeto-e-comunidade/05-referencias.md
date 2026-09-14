@@ -1,52 +1,32 @@
 ---
 title: Referências
-description: Normas, documentações oficiais, protocolos e bibliografia de apoio da Hemeroteca PEB
+description: Marcos teóricos, hemerotecas históricas, frameworks e bibliografia de apoio
 ---
 
-Esta página reúne os padrões técnicos, documentações de softwares, protocolos de comunicação e referências institucionais que fundamentam o desenvolvimento do **Hemeroteca PEB**.
+Esta página documenta a literatura metodológica, as fontes primárias e a infraestrutura tecnológica que embasam a **Hemeroteca PEB**.
 
+## Fontes Primárias Hemerográficas
 
-## Ferramentas e Frameworks de Engenharia de Dados
-
-- **Scrapy Framework:**  
-  Framework de código aberto para extração de dados e rastreamento web em Python.  
-  Documentação: [Scrapy Documentation](https://docs.scrapy.org/)
-
-- **Playwright for Python:**  
-  Biblioteca para automação de navegadores modernos (*headless*) para testes de ponta a ponta e raspagem de páginas com JavaScript dinâmico.  
-  Documentação: [Playwright Python](https://playwright.dev/python/)
-
-- **TinyDB:**  
-  Banco de dados orientado a documentos NoSQL leve e local-first escrito em Python puro.  
-  Documentação: [TinyDB Documentation](https://tinydb.readthedocs.io/)
-
-- **uv (Astral):**  
-  Gerenciador extremamente rápido de pacotes e projetos Python escrito em Rust.  
-  Documentação: [uv Documentation](https://docs.astral.sh/uv/)
+- **Acervo Estadão:** Coleção digitalizada do jornal *O Estado de S. Paulo* (1875 – presente).
+- **Acervo Folha:** Hemeroteca digital histórica da *Folha de S. Paulo* (1921 – presente).
+- **Gazeta Mercantil:** Memória da cobertura econômica, financeira e diplomática brasileira (1920 – 2009).
+- **Jornal da Ciência (SBPC):** Noticiário de política científica e tecnológica nacional.
 
 ---
 
-## Website e Documentação
+## Bibliografia de Política Externa Brasileira
 
-- **Astro:**  
-  Framework moderno para construção de websites rápidos orientados a conteúdo.  
-  Documentação: [Astro Docs](https://docs.astro.build/)
-
-- **Starlight:**  
-  Tema de documentação oficial para Astro com suporte nativo a busca local, navegação estruturada e acessibilidade.  
-  Documentação: [Starlight Docs](https://starlight.astro.build/)
-
-- **Pagefind:**  
-  Motor de busca estático e indexador textual completo executado em tempo de compilação para sites estáticos.  
-  Referência: [Pagefind Documentation](https://pagefind.app/)
+- **CERVO, Amado Luiz; BUENO, Clodoaldo.** *História da Política Exterior do Brasil*. Brasília: Editora UnB, 2002.
+- **VIZENTINI, Paulo Fagundes.** *A Política Externa do Regime Militar Brasileiro (1964-1985)*. Porto Alegre: Editora da UFRGS, 1998.
+- **SARAIVA, José Flávio Sombra.** *O Lugar da África: a dimensão atlântica da política exterior brasileira*. Brasília: EdUnB, 1996.
+- **Hemerotecas Digitais e Pesquisa Histórica:** Diretrizes metodológicas sobre o uso da imprensa como fonte documental primária para as Ciências Sociais e História do Tempo Presente.
 
 ---
 
-## Apoio Institucional e Laboratorial
+## Padrões de Preservação e Tecnologias
 
-- **ColabHD — Laboratório de Humanidades Digitais:**  
-  Núcleo de desenvolvimento tecnológico, governança de dados abertos e pesquisa aplicada.
-- **LabRI / CPPS — UNESP Franca:**  
-  Laboratório de Relações Internacionais e Centro de Pesquisa Política e Social da Faculdade de Ciências Humanas e Sociais (FCHS).
-- **Agências de Fomento:**  
-  Projetos apoiados pelo Conselho Nacional de Desenvolvimento Cien
+- **Zenodo / OpenAIRE:** Repositório de dados abertos operado pelo CERN com suporte ao conector `gitlab2zenodo`.
+- **ocrmypdf & Tesseract OCR:** Mecanismos de reconhecimento óptico de caracteres para documentos históricos ([ocrmypdf.readthedocs.io](https://ocrmypdf.readthedocs.io/))
+- **pikepdf:** Manipulação avançada de arquivos PDF baseada na biblioteca QPDF ([pikepdf.readthedocs.io](https://pikepdf.readthedocs.io/))
+- **FuzzyWuzzy:** Correspondência difusa de strings para desduplicação de registros ([github.com/seatgeek/fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy))
+- **Astro & Starlight:** Framework de documentação estática do laboratório ([starlight.astro.build](https://starlight.astro.build/))
