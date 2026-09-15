@@ -1,109 +1,80 @@
 ---
 title: Equipe
-description: Conheça os pesquisadores e desenvolvedores responsáveis pela Hemeroteca PEB
+description: Coordenadores, pesquisadores e colaboradores que constroem a Hemeroteca PEB
 ---
 
+A **Hemeroteca PEB** é desenvolvida no âmbito do **ColabHD** (Laboratório de Relações Internacionais e Centro de Pesquisa Política e Social — UNESP Franca).
 
-Abaixo são indicadas as pessoas que contribuem com o projeto
+## Coordenação Técnica e Docência
 
-## Coordernadores do projeto
+<div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem;">
 
-### Tullo Vigevani
-
-<img className="img-equipe-foto" src="/img/equipe/tullo-vigevani.png"/>
-
-<div className="img-equipe-redes">
-<a href="http://lattes.cnpq.br/8414328955232709"> <img className="img-icon-redes" src="/img/social/lattes.png" /> </a>
-
-<a href="https://scholar.google.com.br/citations?user=JMLdYQIAAAAJ"> <img className="img-icon-redes" src="/img/social/google.png"/> </a>
-
-<a href="https://orcid.org/0000-0001-6698-8291"> <img className="img-icon-redes" src="/img/social/orcid.png" /> </a>
+<div style="display: flex; gap: 1.2rem; align-items: center; padding: 1.2rem; border: 1px solid var(--sl-color-gray-5); border-radius: 8px; background: var(--sl-color-gray-6);">
+  <img src="https://github.com/rafaelrdealmeida.png" alt="Rafael de Almeida" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>Prof. Dr. Rafael de Almeida</strong><br>
+    <em>Coordenação Técnica e Docência</em><br>
+    Coordenador do LabRI/CPPS e docente na UNESP Franca. Responsável pela metodologia de preservação digital, arquitetura computacional do acervo e esteiras de dados.<br>
+    <a href="http://lattes.cnpq.br/5174307461578307" target="_blank">Currículo Lattes</a> · <a href="https://github.com/rafaelrdealmeida" target="_blank">GitHub (@rafaelrdealmeida)</a>
+  </div>
+</div>
 
 </div>
 
-### Shiguenoli Miyamoto
+---
 
-<img className="img-equipe-foto" src="/img/equipe/shiguenoli.png"/>
+## Pesquisadores e Equipe de Tratamento
 
+<div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem;">
 
-<div className="img-equipe-redes">
-<a href="http://lattes.cnpq.br/2256167799437118"> <img className="img-icon-redes" src="/img/social/lattes.png" /> </a>
-
-<a href="https://scholar.google.com.br/citations?user=6LIzaZkAAAAJ"> <img className="img-icon-redes" src="/img/social/google.png"/> </a>
-
-<a href="http://www.linkedin.com/in/shiguenoli-miyamoto-80500624"> <img className="img-icon-redes" src="/img/social/linkedin.png"/> </a>
-
+<div style="display: flex; gap: 1.2rem; align-items: center;">
+  <img src="https://github.com/thiagovicino.png" alt="Thiago Vicino" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>Thiago Vicino</strong><br>
+    <em>Engenharia de Dados e Scripts de Tratamento</em><br>
+    Desenvolveu os algoritmos de renomeação, normalização de encoding e estruturação do banco consolidado.<br>
+    <a href="https://github.com/thiagovicino" target="_blank">GitHub (@thiagovicino)</a>
+  </div>
 </div>
 
-### [Marcelo Mariano](https://labriunesp.org/docs/equipe#marcelo-passini-mariano)
-
-<img className="img-equipe-foto" src="/img/equipe/marcelo.jpg"/>
-
-<div className="img-equipe-redes">
-<a href="http://lattes.cnpq.br/3505849964932313"> <img className="img-icon-redes" src="/img/social/lattes.png" /> </a>
-
-<img className="img-icon-redes" src="/img/social/email.png"/>
-
-<a href="https://scholar.google.com.br/citations?hl=pt-BR&user=UFsVIxQAAAAJ"> <img className="img-icon-redes" src="/img/social/google.png"/> </a>
-
+<div style="display: flex; gap: 1.2rem; align-items: center;">
+  <img src="https://github.com/m-av-i.png" alt="Mavi Luau da Silva" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>Mavi Luau da Silva</strong><br>
+    <em>Infraestrutura de Dados, Servidores e CI/CD</em><br>
+    Atua na manutenção dos ambientes de desenvolvimento, automação de builds, governança de repositórios e suporte técnico.<br>
+    <a href="https://github.com/m-av-i" target="_blank">GitHub (@m-av-i)</a>
+  </div>
 </div>
 
-
-## Colaboradores do projeto
-
-### [Rafael de Almeida](https://labriunesp.org/docs/equipe#rafael-de-almeida)
-
-<img className="img-equipe-foto" src="/img/equipe/rafael.png"/> 
-
-<div className="img-equipe-redes">
-<a href="http://lattes.cnpq.br/5174307461578307"> <img className="img-icon-redes" src="/img/social/lattes.png" /> </a>
-
-<a href="https://www.linkedin.com/in/rafael-augusto-ribeiro-de-almeida-083792137/"> <img className="img-icon-redes" src="/img/social/linkedin.png"/> </a>
-
+<div style="display: flex; gap: 1.2rem; align-items: center;">
+  <img src="https://github.com/luanavitorino07.png" alt="Luana Vitorino" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>Luana Vitorino</strong><br>
+    <em>Engenharia de Dados e Documentação</em><br>
+    Atua na padronização da arquitetura do website e consolidação da documentação técnica no tema Starlight.<br>
+    <a href="https://github.com/luanavitorino07" target="_blank">GitHub (@luanavitorino07)</a>
+  </div>
 </div>
 
-
-<div style={{textAlign: 'center'}}>
-
-*2021 - atual*
-
+<div style="display: flex; gap: 1.2rem; align-items: center;">
+  <img src="https://github.com/arturddantas.png" alt="Artur Damiano Dantas" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>Artur Damiano Dantas</strong><br>
+    <em>Pesquisa e Curadoria</em><br>
+    Atuou na catalogação, conferência de lotes e análise de matérias históricas de relações exteriores.<br>
+    <a href="https://github.com/arturddantas" target="_blank">GitHub (@arturddantas)</a>
+  </div>
 </div>
 
-### Thiago Fernandes
-
-<img className="img-equipe-foto" src="/img/equipe/thiago-fernandes.png"/> 
-
-<div className="img-equipe-redes">
-<a href="http://lattes.cnpq.br/7777193801520984"> <img className="img-icon-redes" src="/img/social/lattes.png"/> </a>
-<a href="https://www.linkedin.com//"> <img className="img-icon-redes" src="/img/social/linkedin.png"/> </a>
-
+<div style="display: flex; gap: 1.2rem; align-items: center;">
+  <img src="https://github.com/joaocintrasilva.png" alt="João Cintra Silva" width="75" height="75" style="border-radius: 50%; border: 2px solid var(--sl-color-accent); object-fit: cover;" />
+  <div>
+    <strong>João Cintra Silva</strong><br>
+    <em>Pesquisa e Catalogação</em><br>
+    Atuou na auditoria e estruturação dos registros documentais do acervo.<br>
+    <a href="https://github.com/joaocintrasilva" target="_blank">GitHub (@joaocintrasilva)</a>
+  </div>
 </div>
-
-
-<div style={{textAlign: 'center'}}>
-
-*2021 - atual*
-
-</div>
-
-
-## Já passaram por aqui
-
-
-### Ana Motta
-
-<img className="img-equipe-foto" src="/img/logo-labriunesp9.png"/> 
-
-<div className="img-equipe-redes">
-<a href="https://www.linkedin.com/"> <img className="img-icon-redes" src="/img/social/lattes.png"/> </a>
-<a href="https://www.linkedin.com//"> <img className="img-icon-redes" src="/img/social/linkedin.png"/> </a>
-
-</div>
-
-
-
-<div style={{textAlign: 'center'}}>
-
-*2021 - 2022*
 
 </div>
